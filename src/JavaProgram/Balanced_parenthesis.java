@@ -1,7 +1,8 @@
 package JavaProgram;
 import java.util.*;
 public class Balanced_parenthesis {
-    static boolean matching(Integer a, char b){
+    static boolean matching(Integer a, char b)
+    {
         return ((a=='('&& b==')')||(a=='{'&& b=='}')||(a=='[' && b==']'));
     }
     static boolean IsBalaced(String str)
