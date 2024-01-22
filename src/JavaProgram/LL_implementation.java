@@ -52,6 +52,8 @@ class Test2{
         ll.push(20);
         ll.push(30);
         ll.pop();
+        ll.pop();
+        ll.pop();
         System.out.println(ll.size());
         System.out.println(ll.peek());
     }

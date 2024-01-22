@@ -6,7 +6,7 @@ class Atul
     }
 }
 class Papul extends Atul{
-    public void show2(){
+    public void show2() {
         System.out.println("In papul Show ");
     }
 

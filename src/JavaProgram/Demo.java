@@ -22,7 +22,7 @@ class Mobile{
 
 public class Demo {
     public static void main(String[] args) throws ClassNotFoundException {
-        Class.forName("Mobile");
+      //  Class.forName("Mobile");
         String str=new String("Navin");
         str=str+" reddy";
         System.out.println(str.charAt(0));
